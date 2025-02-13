@@ -39,6 +39,6 @@ function checkout() {
     let blob = new Blob([receiptContent], { type: "text/plain" });
     let link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = "Valentines_Date_Plan.txt";
+    link.download = "Receipt.txt";
     link.click();
 }
