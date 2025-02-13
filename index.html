@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Date Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Valentine's Date Invitation 💖</h1>
+    <p>Choose how we’ll spend our special time together!</p>
+
+    <div class="options">
+        <button class="option" onclick="addToCart('Watch a movie together')">🎬 Watch a movie together</button>
+        <button class="option" onclick="addToCart('Binge-Watch your Favorite Shows')">📺 Binge-Watch Your Favorite Shows</button>
+        <button class="option" onclick="addToCart('Exchange Spotify Playlists')">🎶 Exchange Spotify Playlists</button>
+        <button class="option" onclick="addToCart('Video Call Together')">📞 Video Call Together</button>
+        <button class="option" onclick="addToCart('Love Letter Exchange', true)">💌 Love Letter Exchange</button>
+    </div>
+
+    <h2>Your Selections</h2>
+    <div class="cart" id="cart"></div>
+
+    <h3>Special Request</h3>
+    <textarea id="specialRequest" placeholder="Enter any special requests..."></textarea>
+    <br>
+    <button class="checkout" onclick="checkout()">Checkout</button>
+    <p id="secretMessage" class="hidden">💌 You picked the perfect choice! Can't wait for our special date! 💕</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
