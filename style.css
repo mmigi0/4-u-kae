@@ -25,9 +25,9 @@ h1 {
     transition: transform 0.2s, background-color 0.3s;
 }
 .option:hover, .checkout:hover {
-    transform: scale(2);
-    background-color: #FFFFFF;
-    color: black;
+    transform: scale(1.7);
+    background-color: #000000;
+    color: white;
 }
 .cart-item {
     background-color: #e0e0e0;
