@@ -4,6 +4,7 @@ let cart = [];
 function addToCart(item) {
     if (!cart.includes(item)) {
         cart.push(item);
+        console.log("Cart Updated:", cart);
         updateCartDisplay();
     }
 }
