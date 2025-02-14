@@ -39,12 +39,6 @@ h1 {
     margin: 20px auto;
     text-align: left;
 }
-.hidden {
-    display: none;
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #d32f2f;
-}
 textarea {
     width: 80%;
     margin-top: 10px;
