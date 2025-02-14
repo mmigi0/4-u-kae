@@ -1,11 +1,4 @@
 let cart = [];
-
-function addToCart(choice, isSecret = false) {
-    if (!cart.includes(choice)) {
-        cart.push(choice);
-        updateCartDisplay();
-        if (isSecret) {
-            document.getElementById("secretMessage").style.display = "block";
         }
     }
 }
